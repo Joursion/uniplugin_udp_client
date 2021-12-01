@@ -1,28 +1,29 @@
 {
-  "name": "udp_client",
-  "id": "udp_client",
+  "name": "udp-client",
+  "id": "udp-client",
   "version": "1.0.0",
   "description": "基于 udp 的收发，广播",
-  "_dp_type":"nativeplugin",
-  "_dp_nativeplugin":{
+  "_dp_type": "nativeplugin",
+  "_dp_nativeplugin": {
     "android": {
       "plugins": [
         {
           "type": "module",
-          "name": "udp_client",
+          "name": "udp-client",
           "class": "com.joursion.uniplugin_udp_client.UdpClient"
         }
       ],
       "integrateType": "aar",
       "dependencies_remark": "V7、V4、fastjson都已默认集成",
-      "dependencies": [
-      ],
+      "dependencies": [],
       "compileOptions": {
         "sourceCompatibility": "1.8",
         "targetCompatibility": "1.8"
       },
       "abis": [
-        "armeabi-v7a", "arm64-v8a", "x86"
+        "armeabi-v7a",
+        "arm64-v8a",
+        "x86"
       ],
       "minSdkVersion": "21",
       "useAndroidX": true,
