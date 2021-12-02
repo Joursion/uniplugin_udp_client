@@ -1,7 +1,7 @@
 {
   "name": "udp-client",
   "id": "udp-client",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "基于 udp 的收发，广播",
   "_dp_type": "nativeplugin",
   "_dp_nativeplugin": {

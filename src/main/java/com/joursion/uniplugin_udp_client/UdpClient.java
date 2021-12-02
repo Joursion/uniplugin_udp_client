@@ -71,6 +71,7 @@ public class UdpClient extends UniModule {
         return socket.isConnected();
     }
 
+    @UniJSMethod(uiThread = false)
     public void release() {
         if (socket != null) {
             socket.disconnect();
@@ -141,6 +142,7 @@ public class UdpClient extends UniModule {
         print(msg);
     }
 
+    @UniJSMethod()
     public void setIsDebug(boolean isDebug) {
         this.isDebug = isDebug;
     }
